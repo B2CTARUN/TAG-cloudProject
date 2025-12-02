@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { updateUserAvatar } from '../../Services/Auth.service';
 import { useNavigate } from 'react-router-dom';
 

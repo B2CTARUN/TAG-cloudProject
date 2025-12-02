@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { isLoggedIn} from '../../Services/Auth.service.js'
 import { Link, useNavigate } from 'react-router-dom'
 import { useSocket } from '../../Features/useSocket.js';
@@ -38,7 +38,7 @@ function JoinInterview() {
     return (
         <div className="min-h-screen flex bg-gray-800 text-white p-10">
             <div className="w-1/3 flex items-center justify-center  rounded-lg  p-6 bg-gray-900">
-                <img src="/homelogo.png" alt="Logo" className="h-96 drop-shadow-lg rounded-full object-cover"/>
+                <img src="/dist/homelogo.png" alt="Logo" className="h-96 drop-shadow-lg rounded-full object-cover"/>
             </div>    
             <div className="w-2/3 flex  bg-gray-900 items-center justify-center space-y-8 mx-10 rounded-lg">
                 {isLoggedIn() ? (

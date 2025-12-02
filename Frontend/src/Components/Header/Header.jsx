@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
@@ -13,7 +13,7 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
         <NavLink to="/" className="flex items-center">
           <img src="/logoicon.png" alt="Logo" className="w-10 h-auto mr-3" />
-          <span className="text-2xl font-bold text-yellow-500 underline underline-offset-8">CodeRover</span>
+          <span className="text-2xl font-bold text-yellow-500 underline underline-offset-8">TAG</span>
         </NavLink>
 
         <nav className="flex space-x-8">

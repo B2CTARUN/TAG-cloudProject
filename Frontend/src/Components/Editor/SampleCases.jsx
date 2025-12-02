@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 function SampleCases({example_cases}) {
     const [visibleIndex, setVisibleIndex] = useState(0);

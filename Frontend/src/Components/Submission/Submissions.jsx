@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { getSubmissionService } from '../../Services/Submissions.service.js';
 import Loading from '../Loading/Loading.jsx';
 import SubmissionCard from './SubmissionCard.jsx';

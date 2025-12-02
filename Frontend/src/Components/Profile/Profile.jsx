@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { getMyProfile, refreshTokenService } from '../../Services/Auth.service';
 import Header from '../Header/Header.jsx';
 import Loading from '../Loading/Loading.jsx';

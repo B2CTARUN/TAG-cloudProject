@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function ExampleCasesOutput({ exampleCasesExecution }) {
   const [visibleIndex, setVisibleIndex] = useState(0);

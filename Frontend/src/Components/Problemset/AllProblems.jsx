@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import { useState,useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getAllProblemsService } from '../../Services/Problem.service';
 import Loading from '../Loading/Loading.jsx';
@@ -30,7 +30,7 @@ const AllProblems = () => {
     return (
         <div className="min-h-screen flex bg-gray-800 text-white p-10">
             <div className="w-1/3 flex items-center justify-center p-6 rounded-lg  bg-gray-900">
-                <img src="/homelogo.png" alt="Logo" className="h-96 drop-shadow-lg rounded-full object-cover"/>
+                <img src="/dist/homelogo.png" alt="Logo" className="h-96 drop-shadow-lg rounded-full object-cover"/>
             </div>
             
             <div className="w-2/3 m-14">

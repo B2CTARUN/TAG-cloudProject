@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { fetchTweets } from '../../Services/Tweet.service';
 import Reply from './Reply';
 import Loading from '../Loading/Loading.jsx';

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link ,useNavigate} from 'react-router-dom';
 import { registerUser } from '../../Services/Auth.service.js';
 import axios from 'axios';
@@ -34,7 +34,7 @@ const Register = () => {
   return (
     <div className="flex min-h-screen">
       <div className="w-1/2 bg-white flex items-center justify-center">
-        <img src="/logo.png" alt="Logo" className=" h-64" />
+        <img src="/dist/logo.png" alt="Logo" className=" h-64" />
       </div>
       <div className="w-1/2 bg-gray-900 flex items-center justify-center">
       <button onClick={()=>{

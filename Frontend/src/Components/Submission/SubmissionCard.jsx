@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function SubmissionCard({ submission,displayproblem}) {
     const [showCode, setShowCode] = useState(false);
