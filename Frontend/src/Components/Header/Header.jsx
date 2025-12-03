@@ -38,7 +38,7 @@ const Header = () => {
         <div className="flex items-center space-x-4">
           {user ? (
             <div className="flex items-center space-x-3">
-              <img src={user.avatar || '/public/defaultuser.png'} alt="User" className="w-10 h-10 rounded-full border-2 border-yellow-500"/>
+              <img src={user.avatar || '/defaultuser.png'} alt="User" className="w-10 h-10 rounded-full border-2 border-yellow-500"/>
               <span className="text-lg font-semibold text-gray-300">{user.username || 'user'}</span>
             </div>
           ) : (
